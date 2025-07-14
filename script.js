@@ -141,8 +141,9 @@ function initParticles() {
     }
 }
 
-// Initialize typing animation for hero title
+// Initialize typing animation for hero title and summary
 function initTypingAnimation() {
+    // Title animation
     const titleElement = document.querySelector('.hero .title');
     if (titleElement) {
         const title = titleElement.textContent;
@@ -157,11 +158,41 @@ function initTypingAnimation() {
             } else {
                 // Add blinking cursor after typing is complete
                 titleElement.classList.add('typing-complete');
+                // Start the summary typing animation after title is complete
+                initSummaryTyping();
             }
         };
         
         // Start typing animation after a short delay
         setTimeout(typeWriter, 1000);
+    } else {
+        // If title element doesn't exist, still initialize summary typing
+        initSummaryTyping();
+    }
+}
+
+// Initialize typing animation for the summary text
+function initSummaryTyping() {
+    const typedTextElement = document.getElementById('typed-text');
+    if (typedTextElement) {
+        const options = {
+            strings: [
+                "Full Stack Developer",
+                "Mobile App Developer",
+                "IoT Specialist",
+                "Linux System Administrator",
+                "Security Enthusiast"
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 1500,
+            startDelay: 500,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|'
+        };
+        
+        new Typed(typedTextElement, options);
     }
 }
 
