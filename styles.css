@@ -896,18 +896,25 @@ img {
 }
 
 .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    /* display: contents; */
+    display: flex;
+    justify-content: center;  /* horizontally center */
+    align-items: center;
+   
 }
 
+
+
 .contact-info {
+         /* vertically center */
+    min-height: 100vh; 
     padding: 30px;
     background-color: var(--card-bg);
     border-radius: var(--border-radius);
     box-shadow: 0 5px 15px var(--shadow-color);
     border: 1px solid var(--border-color);
 }
+
 
 .contact-title {
     font-family: 'Poppins', sans-serif;
@@ -1229,9 +1236,9 @@ img {
         width: 100%;
     }
 
-    .contact-container {
+    /* .contact-container {
         grid-template-columns: 1fr;
-    }
+    } */
 
     .footer-content {
         flex-direction: column;
