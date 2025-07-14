@@ -6,7 +6,7 @@
         "email": "honey.app.developer@gmail.com",
         "phone": "01537749454",
         "location": "Dhaka, Bangladesh",
-        "github": "github.com/mh-dpi",
+        "github": "github.com/mhcybrooted",
         "linkedin": "linkedin.com/in//mahmudul-hasan-b20a6b311"
       }
     },
@@ -77,7 +77,7 @@
         "repositories": [
           {
             "name": "Scientific Calculator with Flet Python",
-            "url": "https://github.com/mh-dpi/CalculatorUsingFletPython.git"
+            "url": "https://github.com/mhcybrooted/CalculatorUsingFletPython.git"
           }
         ]
       },
@@ -127,7 +127,7 @@
         "repositories": [
           {
             "name": "Smart Academic Infrastructure (SmartAI)",
-            "url": "https://github.com/mh-dpi/SmartAI.git"
+            "url": "https://github.com/mhcybrooted/SmartAI.git"
           }
         ]
       },
@@ -147,7 +147,7 @@
         "repositories": [
           {
             "name": "Community Anti-Corruption Hub (CACHCO)",
-            "url": "https://github.com/mh-dpi/CACHCO.git"
+            "url": "https://github.com/mhcybrooted/CACHCO.git"
           }
         ]
       }
@@ -259,7 +259,7 @@
           "Created a responsive and intuitive user interface with Material Design components",
           "Designed clean architecture for handling calculator operations and state management"
         ],
-        "repository": "https://github.com/mh-dpi/CalculatorUsingFletPython.git"
+        "repository": "https://github.com/mhcybrooted/CalculatorUsingFletPython.git"
       },
       {
         "name": "Linux Development Environment Setup",
@@ -291,7 +291,7 @@
           "Created separate interfaces for students and teachers with role‑specific functionalities",
           "Utilized MVVM architecture and Firebase for real‑time data synchronization"
         ],
-        "repository": "https://github.com/mh-dpi/SmartAI.git"
+        "repository": "https://github.com/mhcybrooted/SmartAI.git"
       },
       {
         "name": "Community Anti-Corruption Hub (CACHCO)",
@@ -301,7 +301,7 @@
           "Implemented secure data handling and user privacy features",
           "Created responsive web interfaces that work across multiple devices"
         ],
-        "repository": "https://github.com/mh-dpi/CACHCO.git"
+        "repository": "https://github.com/mhcybrooted/CACHCO.git"
       },
       {
         "name": "CRUD Application with RESTful API",
@@ -311,7 +311,7 @@
           "Created responsive UI with intuitive product listing, creation, editing, and deletion",
           "Applied proper state management for efficient data handling"
         ],
-        "repository": "https://github.com/mh-dpi/CRUD_App_Ostad.git"
+        "repository": "https://github.com/mhcybrooted/CRUD_App_Ostad.git"
       },
       {
         "name": "Contact Management Application",
@@ -321,7 +321,7 @@
           "Created confirmation dialogs for data deletion to prevent accidental data loss",
           "Designed clean and intuitive user interface with list tiles for contact display"
         ],
-        "repository": "https://github.com/mh-dpi/module_10_assignment.git"
+        "repository": "https://github.com/mhcybrooted/module_10_assignment.git"
       }
     ]
   }
