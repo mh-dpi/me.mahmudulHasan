@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmudul Hasan | Full Stack, Mobile & IoT Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">MH</a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="name" data-aos="fade-up">Mahmudul Hasan</h1>
+                <div class="title-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="title">Full Stack, Mobile & IoT Developer</h2>
+                </div>
+                <div class="summary" data-aos="fade-up" data-aos-delay="400">
+                    <p id="typed-text"></p>
+                </div>
+                <div class="social-links" data-aos="fade-up" data-aos-delay="600">
+                    <a href="https://github.com/mh-dpi" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in//mahmudul-hasan-b20a6b311" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="achievements-preview" data-aos="fade-up" data-aos-delay="800">
+                    <div class="achievement-badge">
+                        <div class="badge-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="badge-text">
+                            <span class="position">1st Place</span>
+                            <span class="event">DPI Skill Competition</span>
+                        </div>
+                    </div>
+                    <div class="achievement-badge">
+                        <div class="badge-icon"><i class="fas fa-medal"></i></div>
+                        <div class="badge-text">
+                            <span class="position">2nd Place</span>
+                            <span class="event">Chattogram Regional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="scroll-text">Scroll</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="particles-container"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-text">
+                    <p>Award-winning developer with expertise spanning mobile, web, IoT technologies, and Linux systems. Achieved top rankings in national skill competitions, including 1st place at Dhaka Polytechnic Institute (2025) and 2nd place at Chattogram Regional Level (2023).</p>
+                    <p>Proficient in Flutter for cross-platform development, Android native development with Kotlin and Jetpack Compose, backend services with Spring Boot, hardware programming with Arduino and ESP32, and Python development with Flet.</p>
+                    <p>Strong experience in configuring CCTV/VMS and custom VMS solutions from working at Spy Security System. Knowledge of networking, surveillance security, cybersecurity, and data structures & algorithms.</p>
+                    <p>Experienced Arch Linux user (5+ years) with knowledge of Kali Linux and other distributions. Diploma holder in Computer Science and Technology with a strong foundation in software development, hardware integration, and system administration.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-title"><i class="fas fa-envelope"></i> Email:</span>
+                        <span class="info-value">honey.app.developer@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title"><i class="fas fa-phone"></i> Phone:</span>
+                        <span class="info-value">01537749454</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                        <span class="info-value">Dhaka, Bangladesh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <!-- Executive Software Engineer -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Executive Software Engineer</h3>
+                            <span class="timeline-company">Spy Security System</span>
+                            <span class="timeline-duration">6 Months</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Developed and maintained software solutions for surveillance and security systems</li>
+                                <li>Configured and managed CCTV systems including IP/analog cameras, DVRs/NVRs, and VMS</li>
+                                <li>Designed and deployed custom VMS solutions tailored to client requirements</li>
+                                <li>Set up network infrastructure to support reliable video streaming</li>
+                                <li>Ensured integration of CCTV/VMS with access control and other security systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT Developer -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">IoT Developer - Health Monitoring System</h3>
+                            <span class="timeline-company">Hardware Project</span>
+                            <span class="timeline-duration">Project-based</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Designed IoT-based health monitoring systems using Arduino and ESP32 microcontrollers</li>
+                                <li>Implemented BMP and ECG sensor integration for real-time health data collection</li>
+                                <li>Created human temperature monitoring system with accurate digital sensors</li>
+                                <li>Integrated fire sensors and motion sensors for environmental monitoring</li>
+                                <li>Created data visualization interfaces to display sensor readings in real-time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Android Developer -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Android Developer - Smart Academic Infrastructure</h3>
+                            <span class="timeline-company">Open Source Project</span>
+                            <span class="timeline-duration">Project-based</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Developed a comprehensive academic management Android application using Kotlin and Jetpack Compose</li>
+                                <li>Implemented automated attendance tracking system using location services and Firebase</li>
+                                <li>Created assignment submission and management features for students and faculty</li>
+                                <li>Built interactive classroom quiz functionality with real-time grading</li>
+                                <li>Applied MVVM architecture pattern for maintainable and testable code</li>
+                            </ul>
+                            <div class="timeline-repo">
+                                <a href="https://github.com/mh-dpi/SmartAI.git" target="_blank">
+                                    <i class="fab fa-github"></i> View Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full Stack Developer -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Full Stack Developer - Community Anti-Corruption Hub</h3>
+                            <span class="timeline-company">Open Source Project</span>
+                            <span class="timeline-duration">Project-based</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Developed an anti-corruption platform using Spring Boot and Thymeleaf</li>
+                                <li>Implemented server-side rendering with Thymeleaf templates</li>
+                                <li>Designed and developed RESTful APIs using Spring Boot for data management</li>
+                                <li>Created secure user authentication and authorization systems</li>
+                                <li>Utilized Kotlin for backend development with Gradle build system</li>
+                            </ul>
+                            <div class="timeline-repo">
+                                <a href="https://github.com/mh-dpi/CACHCO.git" target="_blank">
+                                    <i class="fab fa-github"></i> View Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linux System Administrator -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Linux System Administrator</h3>
+                            <span class="timeline-company">Personal & Professional Projects</span>
+                            <span class="timeline-duration">5+ Years</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Maintained and administered Arch Linux systems for 5+ years</li>
+                                <li>Utilized Kali Linux for security testing and network analysis</li>
+                                <li>Configured and optimized Linux environments for development workflows</li>
+                                <li>Implemented custom shell scripts for automation of routine tasks</li>
+                                <li>Set up and managed development environments with Docker on Linux</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Python Developer -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Python Developer</h3>
+                            <span class="timeline-company">Personal & Open Source Projects</span>
+                            <span class="timeline-duration">Ongoing</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Developed a scientific calculator application using Flet Python framework</li>
+                                <li>Implemented complex mathematical operations and scientific functions</li>
+                                <li>Created responsive and intuitive user interface with Material Design components</li>
+                                <li>Applied proper state management for handling calculator operations</li>
+                            </ul>
+                            <div class="timeline-repo">
+                                <a href="https://github.com/mh-dpi/CalculatorUsingFletPython.git" target="_blank">
+                                    <i class="fab fa-github"></i> View Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security & Networking -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Security & Networking Enthusiast</h3>
+                            <span class="timeline-company">Personal Projects & Learning</span>
+                            <span class="timeline-duration">Ongoing</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="timeline-list">
+                                <li>Gained practical knowledge in network configuration, routing, and troubleshooting</li>
+                                <li>Explored surveillance security systems and camera setups for monitoring</li>
+                                <li>Studied cybersecurity principles and common attack vectors using Kali Linux tools</li>
+                                <li>Implemented basic security measures for protecting systems and networks</li>
+                                <li>Applied data structures and algorithms knowledge to optimize software solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-container">
+                <!-- Mobile Development -->
+                <div class="skill-category" data-aos="fade-up">
+                    <h3 class="category-title"><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Flutter & Dart">
+                            <div class="skill-icon"><i class="fab fa-flutter"></i></div>
+                            <div class="skill-name">Flutter & Dart</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Kotlin & Android SDK">
+                            <div class="skill-icon"><i class="fab fa-android"></i></div>
+                            <div class="skill-name">Kotlin & Android SDK</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Jetpack Compose">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <div class="skill-name">Jetpack Compose</div>
+                        </div>
+                        <div class="skill-tile" data-skill="State Management">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <div class="skill-name">State Management</div>
+                        </div>
+                        <div class="skill-tile" data-skill="MVVM Architecture">
+                            <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                            <div class="skill-name">MVVM Architecture</div>
+                        </div>
+                        <div class="skill-tile" data-skill="RESTful API Integration">
+                            <div class="skill-icon"><i class="fas fa-exchange-alt"></i></div>
+                            <div class="skill-name">RESTful API Integration</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Mobile UI/UX Design">
+                            <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                            <div class="skill-name">Mobile UI/UX Design</div>
+                        </div>
+                        <div class="skill-tile" data-skill="App Performance Optimization">
+                            <div class="skill-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="skill-name">App Performance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & Desktop Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title"><i class="fas fa-server"></i> Backend & Desktop Development</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Spring Boot & Java/Kotlin">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <div class="skill-name">Spring Boot</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Python & Flet Framework">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-name">Python & Flet</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Thymeleaf Template Engine">
+                            <div class="skill-icon"><i class="fas fa-file-code"></i></div>
+                            <div class="skill-name">Thymeleaf</div>
+                        </div>
+                        <div class="skill-tile" data-skill="RESTful API Design">
+                            <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                            <div class="skill-name">RESTful API Design</div>
+                        </div>
+                        <div class="skill-tile" data-skill="JPA/Hibernate">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <div class="skill-name">JPA/Hibernate</div>
+                        </div>
+                        <div class="skill-tile" data-skill="SQL & NoSQL Databases">
+                            <div class="skill-icon"><i class="fas fa-table"></i></div>
+                            <div class="skill-name">SQL & NoSQL</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Data Structures & Algorithms">
+                            <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                            <div class="skill-name">DS & Algorithms</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT & Hardware -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title"><i class="fas fa-microchip"></i> IoT & Hardware</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Arduino & ESP32 Programming">
+                            <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                            <div class="skill-name">Arduino & ESP32</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Sensor Integration">
+                            <div class="skill-icon"><i class="fas fa-heartbeat"></i></div>
+                            <div class="skill-name">Sensor Integration</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Servo Motor Control">
+                            <div class="skill-icon"><i class="fas fa-cog"></i></div>
+                            <div class="skill-name">Servo Motor Control</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Fire & Motion Sensors">
+                            <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                            <div class="skill-name">Fire & Motion Sensors</div>
+                        </div>
+                        <div class="skill-tile" data-skill="C/C++ for Embedded Systems">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <div class="skill-name">C/C++ Embedded</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Circuit Design">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <div class="skill-name">Circuit Design</div>
+                        </div>
+                        <div class="skill-tile" data-skill="IoT Data Communication">
+                            <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+                            <div class="skill-name">IoT Communication</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Hardware Components & Integration">
+                            <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            <div class="skill-name">Hardware Integration</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Networking & Security -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title"><i class="fas fa-shield-alt"></i> Networking & Security</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Network Configuration">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <div class="skill-name">Network Configuration</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Routing & Switching Basics">
+                            <div class="skill-icon"><i class="fas fa-route"></i></div>
+                            <div class="skill-name">Routing & Switching</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Surveillance Systems">
+                            <div class="skill-icon"><i class="fas fa-video"></i></div>
+                            <div class="skill-name">Surveillance Systems</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Cybersecurity Fundamentals">
+                            <div class="skill-icon"><i class="fas fa-lock"></i></div>
+                            <div class="skill-name">Cybersecurity</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Kali Linux Security Tools">
+                            <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                            <div class="skill-name">Kali Linux Tools</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Penetration Testing Basics">
+                            <div class="skill-icon"><i class="fas fa-user-secret"></i></div>
+                            <div class="skill-name">Penetration Testing</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Security Best Practices">
+                            <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="skill-name">Security Practices</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linux & System Administration -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title"><i class="fab fa-linux"></i> Linux & System Administration</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Arch Linux (5+ years)">
+                            <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                            <div class="skill-name">Arch Linux</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Kali Linux & Security Tools">
+                            <div class="skill-icon"><i class="fas fa-bug"></i></div>
+                            <div class="skill-name">Kali Linux</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Shell Scripting (Bash)">
+                            <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                            <div class="skill-name">Shell Scripting</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Package Management">
+                            <div class="skill-icon"><i class="fas fa-box"></i></div>
+                            <div class="skill-name">Package Management</div>
+                        </div>
+                        <div class="skill-tile" data-skill="System Configuration & Optimization">
+                            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                            <div class="skill-name">System Configuration</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Network Configuration">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <div class="skill-name">Network Configuration</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Linux Security Practices">
+                            <div class="skill-icon"><i class="fas fa-user-shield"></i></div>
+                            <div class="skill-name">Linux Security</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="category-title"><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Firebase">
+                            <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                            <div class="skill-name">Firebase</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Git & Version Control">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <div class="skill-name">Git & Version Control</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Docker">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <div class="skill-name">Docker</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Gradle/Maven">
+                            <div class="skill-icon"><i class="fas fa-cog"></i></div>
+                            <div class="skill-name">Gradle/Maven</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Cloud Services">
+                            <div class="skill-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                            <div class="skill-name">Cloud Services</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="category-title"><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-tiles">
+                        <div class="skill-tile" data-skill="Problem Solving">
+                            <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            <div class="skill-name">Problem Solving</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Team Collaboration">
+                            <div class="skill-icon"><i class="fas fa-users"></i></div>
+                            <div class="skill-name">Team Collaboration</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Project Management">
+                            <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                            <div class="skill-name">Project Management</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Communication">
+                            <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                            <div class="skill-name">Communication</div>
+                        </div>
+                        <div class="skill-tile" data-skill="Time Management">
+                            <div class="skill-icon"><i class="fas fa-clock"></i></div>
+                            <div class="skill-name">Time Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Smart Academic Infrastructure -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Academic Infrastructure (SmartAI)</h3>
+                        <div class="project-description">
+                            <p>A comprehensive academic management platform for educational institutions built with Kotlin, Jetpack Compose, and Firebase.</p>
+                            <ul class="project-features">
+                                <li>Automated attendance tracking using location services</li>
+                                <li>Assignment submission and management features</li>
+                                <li>Virtual classroom capabilities for remote learning</li>
+                                <li>MVVM architecture and Firebase integration</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">MVVM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mh-dpi/SmartAI.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community Anti-Corruption Hub -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-content">
+                        <h3 class="project-title">Community Anti-Corruption Hub (CACHCO)</h3>
+                        <div class="project-description">
+                            <p>A platform to combat corruption through community engagement and reporting.</p>
+                            <ul class="project-features">
+                                <li>Built with Spring Boot, Kotlin, and Thymeleaf</li>
+                                <li>Secure data handling and user privacy features</li>
+                                <li>Responsive web interfaces across multiple devices</li>
+                                <li>RESTful APIs for data management</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Thymeleaf</span>
+                            <span class="tech-tag">JPA/Hibernate</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mh-dpi/CACHCO.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT Health Monitoring System -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-content">
+                        <h3 class="project-title">IoT Health Monitoring System</h3>
+                        <div class="project-description">
+                            <p>A comprehensive health monitoring system using Arduino and ESP32 microcontrollers.</p>
+                            <ul class="project-features">
+                                <li>Integration of BMP, ECG, and temperature sensors</li>
+                                <li>Real-time data collection and processing</li>
+                                <li>Custom circuit boards for sensor integration</li>
+                                <li>Motion sensors for patient activity monitoring</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">C/C++</span>
+                            <span class="tech-tag">Sensors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scientific Calculator with Flet Python -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-content">
+                        <h3 class="project-title">Scientific Calculator with Flet Python</h3>
+                        <div class="project-description">
+                            <p>A feature-rich scientific calculator application using Python and the Flet framework.</p>
+                            <ul class="project-features">
+                                <li>Standard arithmetic operations and scientific functions</li>
+                                <li>Responsive and intuitive Material Design UI</li>
+                                <li>Clean architecture for calculator operations</li>
+                                <li>Proper state management implementation</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flet</span>
+                            <span class="tech-tag">Material Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mh-dpi/CalculatorUsingFletPython.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linux Development Environment Setup -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-content">
+                        <h3 class="project-title">Linux Development Environment Setup</h3>
+                        <div class="project-description">
+                            <p>Configured and optimized Arch Linux for development across multiple programming languages and frameworks.</p>
+                            <ul class="project-features">
+                                <li>Custom shell scripts for automating workflows</li>
+                                <li>Secure networking configurations</li>
+                                <li>Containerized development with Docker</li>
+                                <li>Multiple Linux distributions for different needs</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arch Linux</span>
+                            <span class="tech-tag">Bash</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network & Security Lab Setup -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-content">
+                        <h3 class="project-title">Network & Security Lab Setup</h3>
+                        <div class="project-description">
+                            <p>Configured a home lab environment for practicing networking and security concepts.</p>
+                            <ul class="project-features">
+                                <li>Virtual machines for testing security scenarios</li>
+                                <li>Basic surveillance system with IP cameras</li>
+                                <li>Penetration testing with Kali Linux</li>
+                                <li>Applied data structures and algorithms</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Networking</span>
+                            <span class="tech-tag">Kali Linux</span>
+                            <span class="tech-tag">Surveillance</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-container">
+                <div class="education-item" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Diploma in Computer Science and Technology</h3>
+                        <div class="education-school">Dhaka Polytechnic Institute</div>
+                        <div class="education-status">Status: Completed</div>
+                        <div class="education-details">
+                            <h4>Coursework:</h4>
+                            <div class="coursework-grid">
+                                <span class="course">Mobile Application Development</span>
+                                <span class="course">Data Structures & Algorithms</span>
+                                <span class="course">Database Management Systems</span>
+                                <span class="course">Object-Oriented Programming</span>
+                                <span class="course">Web Development</span>
+                                <span class="course">Embedded Systems</span>
+                                <span class="course">Operating Systems</span>
+                                <span class="course">Computer Networking</span>
+                                <span class="course">Cybersecurity Fundamentals</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">SSC</h3>
+                        <div class="education-school">Ramgoti Rabbania Fazil Madrasah</div>
+                        <div class="education-details">
+                            <div class="education-info">
+                                <span class="info-label">Board:</span>
+                                <span class="info-value">Madrasah</span>
+                            </div>
+                            <div class="education-info">
+                                <span class="info-label">GPA:</span>
+                                <span class="info-value">5.00</span>
+                            </div>
+                            <div class="education-info">
+                                <span class="info-label">Passing Year:</span>
+                                <span class="info-value">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements section" id="achievements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Achievements</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="achievements-container">
+                <h3 class="achievements-category" data-aos="fade-up">National Skill Competitions</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card" data-aos="fade-up">
+                        <div class="achievement-medal gold">
+                            <i class="fas fa-trophy"></i>
+                            <span class="medal-text">1st</span>
+                        </div>
+                        <div class="achievement-details">
+                            <div class="achievement-title">Institute Level Skill Competition</div>
+                            <div class="achievement-place">Dhaka Polytechnic Institute</div>
+                            <div class="achievement-year">2025</div>
+                        </div>
+                    </div>
+                    <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="achievement-medal silver">
+                            <i class="fas fa-medal"></i>
+                            <span class="medal-text">2nd</span>
+                        </div>
+                        <div class="achievement-details">
+                            <div class="achievement-title">Regional Level Skill Competition</div>
+                            <div class="achievement-place">Chattogram Region</div>
+                            <div class="achievement-year">2024</div>
+                        </div>
+                    </div>
+                    <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="achievement-medal bronze">
+                            <i class="fas fa-award"></i>
+                            <span class="medal-text">3rd</span>
+                        </div>
+                        <div class="achievement-details">
+                            <div class="achievement-title">Institute Level Skill Competition</div>
+                            <div class="achievement-place">Bangladesh Sweden Polytechnic Institute</div>
+                            <div class="achievement-year">2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contact</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-up">
+                    <h3 class="contact-title">Let's Build Something Together</h3>
+                    <p class="contact-text">Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p><a href="mailto:honey.app.developer@gmail.com">honey.app.developer@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p><a href="tel:01537749454">01537749454</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/mh-dpi" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in//mahmudul-hasan-b20a6b311" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container" data-aos="fade-up" data-aos-delay="200">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">MH</a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2023 Mahmudul Hasan. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
